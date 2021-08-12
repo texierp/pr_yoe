@@ -1,0 +1,23 @@
+header:
+  version: 8
+
+repos:
+
+  meta-freescale:
+    url: https://github.com/YoeDistro/meta-freescale
+    refspec: yoe/mut
+
+  meta-freescale-3rdparty:
+    url: https://github.com/YoeDistro/meta-freescale-3rdparty
+    refspec: yoe/mut
+
+  meta-openembedded:
+    url: http://git.openembedded.org/meta-openembedded
+    refspec: master
+    layers:
+      meta-oe:
+      meta-perl:
+      meta-python:
+      meta-networking:
+      meta-webserver:
+      meta-filesystems:
